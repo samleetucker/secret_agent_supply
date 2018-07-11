@@ -67,6 +67,25 @@ header span {
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .featured-product {
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .featured-product h3 {
+    font-size: 0.77rem;
+  }
+
+  .featured-product h2 {
+    font-size: 1rem;
+  }
+}
+
 /* Navigation */
 
 nav {
@@ -129,12 +148,25 @@ nav ul {
 }
 
 @media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
   .glasses {
     display: none;
   }
+}
 
+@media only screen and (max-width: 470px) {
+  .products-container {
+    justify-content: center;
+  }
   .product {
-    width: 47%;
+    width: 90%;
+  }
+
+  .watch {
+    display: none;
   }
 }
 
@@ -160,10 +192,28 @@ nav ul {
   color: white;
 }
 
+@media only screen and (max-width: 470px) {
+  .biz-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    width: 90%;
+    padding: .5rem 0;
+  }
+}
+
 /* Footer */
 
 footer {
   background-color: black;
   padding: 5rem 0;
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
