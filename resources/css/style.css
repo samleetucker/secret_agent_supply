@@ -74,6 +74,7 @@ header span {
 
   .featured-product {
     top: 10rem;
+    width: auto;
     padding: 1rem 2rem;
   }
 
